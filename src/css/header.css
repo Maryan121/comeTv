@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&family=Big+Shoulders+Display:wght@200;500;700&family=Commissioner:wght@200;400;500;700&family=Exo:wght@100&family=Inter:wght@400;500;700;800&family=Josefin+Sans:wght@300&family=Karla:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Libre+Franklin:wght@300;600;700&family=Manrope:wght@800&family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&family=Plus+Jakarta+Sans:wght@500;800&family=Poppins:wght@300;500;600;700&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,600;1,8..144,300&family=Roboto:wght@400;700;900&family=Rubik:wght@400;500;700&family=Space+Grotesk:wght@500&family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    box-shadow: 0px 0px 30px #fff;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+    padding: .7rem 4rem 0 4rem;
+
+}
+
+.header h1{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    font-weight: 300;
+    letter-spacing: .1rem;
+}
+.tv{
+    margin-left: -.8rem;
+    color: #8b228b;
+    color: #BA536B;
+    /* color: rgb(206, 53, 53); */
+    font-weight: 700;
+}
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 11rem;
+}
+.navItems{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nav-links{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #AFAFAF;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.nav-links:hover, .nav-links:focus{
+    /* border-bottom: solid rgb(206, 53, 53) 3px; */
+    /* border-bottom: solid #BA536B 4px; */
+    color: #BA536B;
+}
+
+.searchSec{
+    display: flex;
+    align-items: center;
+}
+.searchSec input{
+    background: none;
+    padding: .5rem  1.4rem;
+    width: 15rem;
+    color: #AFAFAF;
+    border-radius: 3rem 0 0 3rem;
+    font-size: 1rem;   
+    border: #AFAFAF 1px solid;
+    border-right: none;
+
+}
+.searchSec input:hover, .searchSec input:focus{
+    outline: none;
+    box-shadow: 0px 0px 8px #AFAFAF;
+}
+.searchLink{
+    text-decoration: none;
+    color: #AFAFAF;    
+    margin-top: .17rem;
+    
+border-color: #8b228b;
+}
+.searchLink:hover,.searchLink:focus{
+    /* padding-bottom: 0; */
+    /* box-shadow: 0px 0px 8px #AFAFAF; */
+    /* border-radius:0 2rem 1rem 0; */
+    opacity: .6;
+}
+.searchIcon{
+    padding: .3rem .7rem;
+    font-weight: 300;
+    background-color: #afafaf1e;
+    border: #AFAFAF solid 1px;
+    border-radius: 0 3rem 3rem 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.searchSec form{
+    display: flex;
+    align-items: center;
+}
+.popular{
+    color: #AFAFAF;
+    text-transform: uppercase;
+    /* border: #8b228b solid 1px; */
+    border-left: #BA536B solid 3px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-left: 2rem;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+.popular:hover, .popular:focus{
+    color: #BA536B;
+}
+
+@media (max-width:414px){
+    .header{
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem;
+        box-shadow: none;
+        /* align-items: flex-start; */
+        /* background-color: #8b228b; */
+    }
+    .header h1{
+        align-self: flex-start;
+    }
+    .header nav{
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+        /* margin-top: 1rem; */
+        justify-content: center;
+        /* background-color: aliceblue; */
+        /* align-items: center; */
+    }
+    .searchSec{
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    .searchSec form{
+        /* width: 13rem; */
+        margin-top: -2rem;
+        margin: 0;
+        padding: 0;
+        /* position: absolute; */
+        top: 2.5rem;
+        right: 1rem;
+        /* background-color: #8b228b; */
+    }
+    .searchSec form input{
+       width: 100%;
+    }
+    .popular{
+        position: absolute;
+        top: 2.5rem;
+        right: 2rem;
+        border-left:  none;
+        color: #BA536B;
+        border-left: solid #AFAFAF 1px;
+        border-right: solid #AFAFAF 1px;
+        /* border-left-style: double;
+        border-right-style: double; */
+        /* border-style: double; */
+        padding: .2rem;
+        font-size: .8rem;
+        /* border-radius: 1rem; */
+    }
+    .popular:hover, .popular:focus{
+        color: #AFAFAF;
+    }
+ }
+  
