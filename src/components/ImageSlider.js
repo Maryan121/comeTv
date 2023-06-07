@@ -25,7 +25,8 @@ export default function ImageSlider({slides}){
     },3000)
  return(
     <div className="cont">
-        <img  src={slides[currentIndex].url} alt="background"  className="backgroundimage"/>
+        <img  src={`${slides[currentIndex].url}`} alt="background"  className="backgroundimage"/>
+        {/* {console.log(`./trailer/${slides[currentIndex].url}`)} */}
         <div className="sliders">
             <FaChevronLeft onClick={goPrevious}  className="leftArrow sliderArrows"/>                
             <FaChevronRight onClick={goNext}  className="rightArrow sliderArrows"/>

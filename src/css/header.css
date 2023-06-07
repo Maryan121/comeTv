@@ -8,7 +8,8 @@ body{
 }
 
 .header{
-    box-shadow: 0px 0px 30px #fff;
+    /* box-shadow: 0px 0px 30px #fff; */
+    border-bottom:#1F1F1F solid 1px;
     display: flex;
     gap: 6rem;
     align-items: center;
@@ -27,6 +28,7 @@ body{
     margin-left: -.8rem;
     color: #8b228b;
     color: #BA536B;
+    color: #ea345e;
     /* color: rgb(206, 53, 53); */
     font-weight: 700;
 }
@@ -51,7 +53,7 @@ body{
 .nav-links:hover, .nav-links:focus{
     /* border-bottom: solid rgb(206, 53, 53) 3px; */
     /* border-bottom: solid #BA536B 4px; */
-    color: #BA536B;
+    color: #ea345e;
 }
 
 .searchSec{

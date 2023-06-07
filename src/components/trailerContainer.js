@@ -1,9 +1,9 @@
-import trailerData from "../trailerData";
+import trailerData from "../data/trailerData";
 import Template from "./template";
 
 function TrailerContainer(){
     let data = trailerData.map((data)=>{
-        return <Template 
+        return<Template 
             key= {data.id} 
             dataItems = {data}
         />
