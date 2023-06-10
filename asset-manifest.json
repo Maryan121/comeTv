@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/comeTv/static/css/main.af4d9de5.css",
-    "main.js": "/comeTv/static/js/main.643ec7ac.js",
+    "main.js": "/comeTv/static/js/main.5ce8919b.js",
     "static/media/video.mp4": "/comeTv/static/media/video.8fcc712361122bd4d977.mp4",
     "static/media/golden-spoon.jpeg": "/comeTv/static/media/golden-spoon.c193200fb5718465fe6d.jpeg",
     "static/media/wednesday.jpeg": "/comeTv/static/media/wednesday.9189a41a39b5ec7442e9.jpeg",
@@ -24,10 +24,10 @@
     "static/media/business-proposal.webp": "/comeTv/static/media/business-proposal.93a3070a033dd403679a.webp",
     "index.html": "/comeTv/index.html",
     "main.af4d9de5.css.map": "/comeTv/static/css/main.af4d9de5.css.map",
-    "main.643ec7ac.js.map": "/comeTv/static/js/main.643ec7ac.js.map"
+    "main.5ce8919b.js.map": "/comeTv/static/js/main.5ce8919b.js.map"
   },
   "entrypoints": [
     "static/css/main.af4d9de5.css",
-    "static/js/main.643ec7ac.js"
+    "static/js/main.5ce8919b.js"
   ]
 }
