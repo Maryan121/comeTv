@@ -14,23 +14,10 @@ export function SeriesPage(){
     })
     return(
         <main className="main">
-        {/* <h2 className="mainTitle">series</h2> */}
-         <div className="containerSer">
+        <div className="containerSer">
             {data}
         </div>  
-        <div className="trending">
-            <h3>trending</h3>
-            <ul>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-                <li>* crezy love</li>
-            </ul>
-        </div>     
+      
 
         </main>
        

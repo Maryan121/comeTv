@@ -14,29 +14,23 @@ export default [
         poster2: img2,
         poster3: img3,
         poster4: img4,
-        poster5: img5,
-        poster6: img5,
-        poster7: img5,
-        poster8: img5,
-        poster9: img5,
-        poster10: img5,
     },
-    // {
-    //     id:2,
-    //     title:'trailer',
-    //     poster1: 'arday.jpeg',
-    //     poster2: 'golden-spoon.jpeg',
-    //     poster3: 'start-up.jpg',
-    //     poster4: 'vincenso.webp'
-    // },
-    // {
-    //     id:3,
-    //     title:'movies',
-    //     poster1: 'business-proposal.webp',
-    //     poster2: 'golden-spoon.jpeg',
-    //     poster3: 'start-up.jpg',
-    //     poster4: 'vincenso.webp'
-    // },
+    {
+        id:2,
+        title:'trailer',
+        poster1: img1,
+        poster2: img2,
+        poster3: img3,
+        poster4: img4
+    },
+    {
+        id:3,
+        title:'movies',
+        poster1: img3,
+        poster2: img1,
+        poster3:img4,
+        poster4: img2
+    },
     // {
     //     id:4,
     //     title:'tv shows',

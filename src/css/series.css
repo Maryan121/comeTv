@@ -1,20 +1,15 @@
 .main{
-    display: grid;
-    grid-template-columns: 71% auto;
+    width: 70%;
     gap: 1rem;
 }
 
 .containerSer{
     display: grid;
-    /* width: 100%; */
     grid-template-columns: repeat(5,1fr);
-    /* background-color: #1f1f1f94; */
     gap: 1rem;
-    /* border: solid 1px #1F1F1F; */
     border: none;
     padding: 1rem;
     margin:  3rem 2rem;
-    /* border-radius: .3rem; */
     padding: 3rem;
 }
 
@@ -22,9 +17,6 @@ img{
     width: 100%;
     height: 200px;
     filter: brightness(120%);
-    /* border-radius: .5rem; */
-    /* border: #1F1F1F solid 1px; */
-
 }
 .templateCont{
     position: relative;
@@ -66,7 +58,7 @@ img{
     /* border-radius: .2rem; */
 }
 .trending{
-    background-color: #abafae75;
+    background-color: #5f616075;
     margin: 2rem;
     padding: 2rem;
 }
@@ -81,16 +73,75 @@ h3{
 li{
     list-style-type: none;
 }
+.watch{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #130E0E;
+}
+video{
+    width: 100%;
+    display: flex;
+    margin: 1rem auto;
+    height: 60vh;
+    border: solid #787979 1px;
+    margin: 1rem;
+}
+.desckription{
+    padding: 2rem;
+}
+.videoName{
+    margin-left: 2.5rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.videoPara{
+    padding: 0 2.5rem;
+    color: #787979;
+}
+.desckription ol{
+    text-align: center;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    /* background-color: #130E0E; */
+    margin-top: 2rem;
+}
+.desckription ol li{
+    margin-bottom: 1rem;
+    list-style-type: none;
+    border: solid #BA536B 1px;
+    color: #BA536B;
+    cursor: pointer;
+    padding: .5rem 0;
+}
+.desckription ol li:hover,
+.desckription ol li:focus{
+    background: #BA536B;
+    color: #DCDDDD;
+}
 
 
 @media screen and (max-width: 415px){
-
+    .watch{
+        grid-template-columns: 100%;
+        gap: 2rem;
+        background-color: #130E0E;
+    }
+    video{
+        height: fit-content;
+        margin: 0;
+        
+    }
+    .desckription{
+        padding: 0;
+    }
  .main{
-    grid-template-columns: 100%;
+    width: 100%;
 
  }   
  .containerSer{
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(3,1fr);
     padding: 1.5rem;
     margin: 0;
  }

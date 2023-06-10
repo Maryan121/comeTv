@@ -1,10 +1,8 @@
-import React from "react";
 
-
+import React from "react"
 export function MoviesPage(){
     return(
-        <>
-            <h1>movies</h1>
-        </>
+        <div>movies</div>
     )
-} 
+}
+
