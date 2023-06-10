@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/comeTv/static/css/main.af4d9de5.css",
+    "main.js": "/comeTv/static/js/main.643ec7ac.js",
+    "static/media/video.mp4": "/comeTv/static/media/video.8fcc712361122bd4d977.mp4",
+    "static/media/golden-spoon.jpeg": "/comeTv/static/media/golden-spoon.c193200fb5718465fe6d.jpeg",
+    "static/media/wednesday.jpeg": "/comeTv/static/media/wednesday.9189a41a39b5ec7442e9.jpeg",
+    "static/media/start-up.jpeg": "/comeTv/static/media/start-up.4aaafb2a02b3cb65161d.jpeg",
+    "static/media/pushba.jpg": "/comeTv/static/media/pushba.bc7ed4843e23269b4570.jpg",
+    "static/media/rush hour.jpg": "/comeTv/static/media/rush hour.ad0635aaf809d7b5fc98.jpg",
+    "static/media/crezy love.jpg": "/comeTv/static/media/crezy love.17fbb6e6799a04c1309d.jpg",
+    "static/media/batman.webp": "/comeTv/static/media/batman.a9ec88a7652d96d21ec2.webp",
+    "static/media/tale-of-the-nine-tailed.jpg": "/comeTv/static/media/tale-of-the-nine-tailed.362851f15ffcbb158fce.jpg",
+    "static/media/start-up.jpg": "/comeTv/static/media/start-up.13cbe321fe246d25d6df.jpg",
+    "static/media/run on.webp": "/comeTv/static/media/run on.ea13456b690a58ccb454.webp",
+    "static/media/king eternal monarch.jpg": "/comeTv/static/media/king eternal monarch.9666f0e6b63816ee3557.jpg",
+    "static/media/revenge-of-others.webp": "/comeTv/static/media/revenge-of-others.fccaf77924478ee959ed.webp",
+    "static/media/true-beauty.jpg": "/comeTv/static/media/true-beauty.035f76f0d723890c16f3.jpg",
+    "static/media/batman.jpg": "/comeTv/static/media/batman.78f4990c835119202d8e.jpg",
+    "static/media/vincenso.webp": "/comeTv/static/media/vincenso.33805934ebc6cc53dd8f.webp",
+    "static/media/connect.png": "/comeTv/static/media/connect.d03919a11b1242ae5747.png",
+    "static/media/dr-cha.webp": "/comeTv/static/media/dr-cha.00af7e6da32467fed085.webp",
+    "static/media/what is wrong with secretary kim.jpg": "/comeTv/static/media/what is wrong with secretary kim.8cdd6669af8aa54af6fa.jpg",
+    "static/media/business-proposal.webp": "/comeTv/static/media/business-proposal.93a3070a033dd403679a.webp",
+    "index.html": "/comeTv/index.html",
+    "main.af4d9de5.css.map": "/comeTv/static/css/main.af4d9de5.css.map",
+    "main.643ec7ac.js.map": "/comeTv/static/js/main.643ec7ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af4d9de5.css",
+    "static/js/main.643ec7ac.js"
+  ]
+}
