@@ -1,11 +1,12 @@
 
 .trailer{
-    padding: 2rem 4rem;
+    padding:  1rem 3rem;
+    position: relative;
     
 }
 .MainTitle{
     text-transform: uppercase;  
-    color: #AFAFAF;  
+    color: #BA536B;  
     /* color: #ea345e; */
     /* border-left: solid 6px #D69F39; */
     /* border-left: solid 6px purple; */
@@ -16,35 +17,43 @@
 
 }
 .container{
+    border: solid #4B4B4F 1px;
+    border-style: dotted;
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(4,1fr);
-    gap: 1rem;
     padding: 1rem;
-    /* background-color: #0C0C13; */
-    border: solid #4B4B4F 2px;
+    gap: .7rem;
+    height: 440px;
+    margin-top: 3rem;
 }
+
 .a{
+    position: absolute;
+    top: 0;
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /* margin-top: 5rem;     */
 }
 .seeAll{
     border: solid 1px;
     text-decoration: none;
-    margin-top: 2.2rem;
     padding: .4rem 1rem;
+    color: #d3cdcd;
+    /* position: absolute; */
+    /* top: 8.4%; */
+    /* right: 5%; */
+    margin-top: .7rem;
 }
 .seeAll:hover, .seeAll:focus{
     background-color: #BA536B;
     color: #27272D;
 }
 .mainImage{
-    /* padding: 1rem; */
     width: 100%;
     height: 100%;
-    max-height: 440px;
-    border-radius: 1rem;
-    border: solid 1px #27272D;
+   
 }
 
 .mainImage:hover, .mainImage:focus{
@@ -53,24 +62,18 @@
     
 }
 
-@media (max-width:415px){
+@media (max-width:769px){
     .trailer{
         padding: 1rem;
     }
     .container{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows: 100%;
-        overflow: hidden;
-        margin-top: 3rem;
-        height: 220px;
-        /* padding: 0; */
-        /* border: none; */
+       height: 170px;
+       margin-bottom: 2rem;
     }
-    .mainImage{
-        height: 200px;
-        border-radius: .5rem;
-        max-height: 380px;
-    }
+    /* .mainImage{
+        height: 100%;
+        width: 100%;
+    } */
     .MainTitle{
         margin-bottom: -3.1rem;
     }
