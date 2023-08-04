@@ -8,6 +8,9 @@
     filter: brightness(110%);
     /* transition: 1s ease-in-out; */
 }
+.background{
+    position: relative;
+}
 
 .cont{
     width:100%;
@@ -20,6 +23,7 @@
     border: solid 1px #949494;
     cursor: pointer;
     top: 38%;
+    background-color:rgba(48, 45, 45, 0.719) ;
 }
 .sliderArrows:hover, .sliderArrows:focus{
     background-color: #94949469;
@@ -40,11 +44,17 @@
 
 } */
 
-@media screen and (max-width:415px){
+@media screen and (max-width:769px){
     .backgroundimage{
         height: 100%;
     }
    .cont{
-        height: 30vh;
+        height: 38vh;
    }
+   .leftArrow{
+    top: 30%;
+    }
+    .rightArrow{
+        top: 30%;
+    }
 }
